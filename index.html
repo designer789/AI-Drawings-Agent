@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Drawings Agent</title>
+    <link rel="icon" href="uploads/img/icon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="uploads/img/hd.png" alt="AI Drawings Agent Logo">
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Features</a>
+                    <a href="#how-to-use">How to Use</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#roadmap">Roadmap</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">AI Drawings Agent</span>
+                <h1>Bringing Your Static Creations to Life with AI</h1>
+                <p>AI Drawings Agent is a cutting-edge tool that transforms your static, hand-drawn illustrations into dynamic, animated characters. By analyzing the structure and intent of your drawing, it creates smooth, natural animations that are fun, engaging, and highly customizable.</p>
+                <p>With AI Drawings Agent, your creativity goes beyond paper—step into a world where your sketches come alive.</p>
+                
+                <div class="social-links">
+                    <a href="https://x.com/ADA_SOL_" class="social-link" title="Twitter" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://t.me/AI_Drawings_Agent" class="social-link" title="Telegram" target="_blank">
+                        <i class="fa-brands fa-telegram"></i>
+                    </a>
+                    <a href="#" class="social-link" title="DEXTools">
+                        <img src="uploads/img/dextools.svg" alt="DEXTools" class="custom-icon">
+                    </a>
+                    <a href="#" class="social-link" title="DEX Screener">
+                        <img src="uploads/img/dex-screener.svg" alt="DEX Screener" class="custom-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="blob-background"></div>
+                <div class="hero-images-wrapper">
+                    <img src="uploads/img/p1.png" alt="AI Drawings Static Example" class="hero-img static-img">
+                    <img src="uploads/img/g1.gif" alt="AI Drawings Animated Example" class="hero-img animated-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2>Features</h2>
+            
+            <div class="features-carousel">
+                <div class="features-track">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#16AB59" stroke-width="2"/>
+                                <path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M9 9H9.01" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M15 9H15.01" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Drawing Animation</h3>
+                        <p>Upload your own drawings (JPEG/PNG), and watch as they are animated with fluid movements and engaging actions. Perfect for creating personalized animations without needing technical skills.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 4H6C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4Z" stroke="#16AB59" stroke-width="2"/>
+                                <path d="M9 9H9.01" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M15 9H15.01" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Pose Recognition</h3>
+                        <p>The agent detects the pose and structure of your character, building a skeletal framework that allows for realistic motion.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.7519 11.1679L11.5547 9.03647C10.8901 8.59343 10 9.06982 10 9.86852V14.1315C10 14.9302 10.8901 15.4066 11.5547 14.9635L14.7519 12.8321C15.3457 12.4362 15.3457 11.5638 14.7519 11.1679Z" stroke="#16AB59" stroke-width="2"/>
+                                <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#16AB59" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Pre-set Motion Templates</h3>
+                        <p>Choose from a variety of built-in motion templates—walking, waving, jumping, or even dancing. Tweak and adjust animations directly using our interactive interface. Define movements, set timing, and make adjustments in real-time.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 15L8 11H16L12 15Z" fill="#16AB59"/>
+                                <path d="M2 12L2 18C2 19.1046 2.89543 20 4 20L20 20C21.1046 20 22 19.1046 22 18L22 12" stroke="#16AB59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 15L12 4" stroke="#16AB59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Export Options</h3>
+                        <p>Save your animations as MP4, GIF, or even interactive web files to share on social media, integrate into presentations, or use in educational content.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 11H5C3.89543 11 3 11.8954 3 13V20C3 21.1046 3.89543 22 5 22H19C20.1046 22 21 21.1046 21 20V13C21 11.8954 20.1046 11 19 11Z" stroke="#16AB59" stroke-width="2"/>
+                                <path d="M7 11V7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7V11" stroke="#16AB59" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Material Library</h3>
+                        <p>Access a wide range of pre-built characters, objects, and backgrounds to kickstart your animations.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15C21 16.1046 20.1046 17 19 17H7L3 21V5C3 3.89543 3.89543 3 5 3H19C20.1046 3 21 3.89543 21 5V15Z" stroke="#16AB59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 10H15" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12 7V13" stroke="#16AB59" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>TGBot Functionality & GitHub Integration</h3>
+                        <p>Easily create animations with a few simple commands through Telegram Bot. Leverage GitHub open-source code to customize your animations locally or process them in bulk.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-prev">←</button>
+                <button class="carousel-next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-to-use-section" id="how-to-use">
+        <div class="container">
+            <h2>How to Use</h2>
+            <p class="section-subtitle">AI Drawings Agent uses state-of-the-art AI models to analyze and animate your drawings. Here's how it works:</p>
+            
+            <div class="tabs-container">
+                <div class="tabs">
+                    <div class="tab-slider"></div>
+                    <button class="tab-btn active" data-tab="telegram">Via Telegram Bot</button>
+                    <button class="tab-btn" data-tab="github">Via GitHub</button>
+                </div>
+                
+                <div class="tab-content active" id="telegram">
+                    <div class="steps-container">
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Access Telegram Bot</h3>
+                                    <p>Search for <span class="highlight">@AI_DrawingsBot</span> on Telegram and click "Start."</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Choose Material or Upload Your Drawing</h3>
+                                    <p>Use the command <span class="code">/materials</span> to browse available assets.</p>
+                                    <p>Or upload your custom drawing (JPEG/PNG format).</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Generate Animation</h3>
+                                    <p>Enter <span class="code">/generate</span> and choose an action template (e.g., "walk," "wave," or "jump").</p>
+                                    <p>The Bot will process your request and generate an animation preview.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>Download & Share</h3>
+                                    <p>Once generated, the Bot provides a download link for MP4 or GIF format.</p>
+                                    <p>Share your animations instantly on social media!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="github">
+                    <div class="steps-container">
+                        <div class="steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h3>Clone the GitHub Repository</h3>
+                                    <p>Visit <a class="github-link">AI Drawings Agent GitHub Repository</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h3>Install Dependencies</h3>
+                                    <p>Ensure Python and pip are installed.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h3>Run the Program</h3>
+                                    <p>Start the script to access the interactive interface.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h3>Upload Images or Choose Materials</h3>
+                                    <p>Upload your images to the input folder.</p>
+                                    <p>Or select built-in materials from the library.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">5</div>
+                                <div class="step-content">
+                                    <h3>Generate Animation</h3>
+                                    <p>Use the command to generate an animation based on a template.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">6</div>
+                                <div class="step-content">
+                                    <h3>View & Export</h3>
+                                    <p>Generated animations are saved in the output folder and can be exported as MP4 or GIF files.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="command-list-section">
+        <div class="container">
+            <h2>TGBot Command List</h2>
+            <div class="command-list">
+                <div class="command-item">
+                    <div class="command-name">/start</div>
+                    <div class="command-desc">Start the Bot.</div>
+                </div>
+                <div class="command-item">
+                    <div class="command-name">/help</div>
+                    <div class="command-desc">View command help.</div>
+                </div>
+                <div class="command-item">
+                    <div class="command-name">/materials</div>
+                    <div class="command-desc">Display the material library.</div>
+                </div>
+                <div class="command-item">
+                    <div class="command-name">/upload</div>
+                    <div class="command-desc">Upload your drawing for animation.</div>
+                </div>
+                <div class="command-item">
+                    <div class="command-name">/generate</div>
+                    <div class="command-desc">Create an animation by choosing an action template.</div>
+                </div>
+                <div class="command-item">
+                    <div class="command-name">/download</div>
+                    <div class="command-desc">Download your generated animation.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="technology-section" id="technology">
+        <div class="container">
+            <h2>The Technology Behind AI Drawings Agent</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-track technology-track">
+                    <div class="technology-card">
+                        <div class="technology-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#8B5CF6" stroke-width="2"/>
+                                <circle cx="12" cy="8" r="2" fill="#8B5CF6"/>
+                                <circle cx="8" cy="14" r="2" fill="#8B5CF6"/>
+                                <circle cx="16" cy="14" r="2" fill="#8B5CF6"/>
+                                <line x1="12" y1="10" x2="8" y2="12" stroke="#8B5CF6" stroke-width="2"/>
+                                <line x1="12" y1="10" x2="16" y2="12" stroke="#8B5CF6" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Pose Detection Engine</h3>
+                        <p>AI Drawings Agent identifies the key points in your drawing and generates a skeletal map for animation. This ensures the animations flow naturally and remain true to your design.</p>
+                    </div>
+                    
+                    <div class="technology-card">
+                        <div class="technology-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="18" height="18" rx="2" stroke="#8B5CF6" stroke-width="2"/>
+                                <path d="M7 8L7 16" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M12 12L12 16" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M17 6L17 16" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>AI Motion Library</h3>
+                        <p>A library of motion templates built using machine learning ensures smooth, professional-quality movements.</p>
+                    </div>
+                    
+                    <div class="technology-card">
+                        <div class="technology-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 7C3 4.79086 4.79086 3 7 3H17C19.2091 3 21 4.79086 21 7V17C21 19.2091 19.2091 21 17 21H7C4.79086 21 3 19.2091 3 17V7Z" stroke="#8B5CF6" stroke-width="2"/>
+                                <path d="M3 7L12 13L21 7" stroke="#8B5CF6" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3>Image Segmentation</h3>
+                        <p>Advanced image segmentation removes backgrounds, isolates characters, and ensures clean animations.</p>
+                    </div>
+                    
+                    <div class="technology-card">
+                        <div class="technology-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="5" width="18" height="14" rx="2" stroke="#8B5CF6" stroke-width="2"/>
+                                <path d="M7 9H17" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M7 13H13" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3>Interactive Interface</h3>
+                        <p>The editing tools are designed for simplicity and flexibility, allowing both professionals and beginners to animate with ease.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-prev tech-prev">←</button>
+                <button class="carousel-next tech-next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-section">
+        <div class="container">
+            <h2>Why Choose AI Drawings Agent?</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel-track why-choose-track">
+                    <div class="why-choose-card">
+                        <div class="why-choose-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#3B82F6" stroke-width="2"/>
+                                <path d="M8 12L11 15L16 9" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Ease of Use</h3>
+                        <p>No animation experience required. Our intuitive interface makes it simple for anyone to create professional animations.</p>
+                    </div>
+                    
+                    <div class="why-choose-card">
+                        <div class="why-choose-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 2V5" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 2V5" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 9H21" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <rect x="3" y="5" width="18" height="16" rx="2" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 13H15" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 17H15" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Versatility</h3>
+                        <p>From simple doodles to intricate designs, every drawing can come to life with our advanced animation technology.</p>
+                    </div>
+                    
+                    <div class="why-choose-card">
+                        <div class="why-choose-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.4 15C19.2669 15.3016 19.2272 15.6362 19.286 15.9606C19.3448 16.285 19.4995 16.5843 19.73 16.82L19.79 16.88C19.976 17.0657 20.1235 17.2863 20.2241 17.5291C20.3248 17.7719 20.3766 18.0322 20.3766 18.295C20.3766 18.5578 20.3248 18.8181 20.2241 19.0609C20.1235 19.3037 19.976 19.5243 19.79 19.71C19.6043 19.896 19.3837 20.0435 19.1409 20.1441C18.8981 20.2448 18.6378 20.2966 18.375 20.2966C18.1122 20.2966 17.8519 20.2448 17.6091 20.1441C17.3663 20.0435 17.1457 19.896 16.96 19.71L16.9 19.65C16.6643 19.4195 16.365 19.2648 16.0406 19.206C15.7162 19.1472 15.3816 19.1869 15.08 19.32C14.7842 19.4468 14.532 19.6572 14.3543 19.9255C14.1766 20.1938 14.0813 20.5082 14.08 20.83V21C14.08 21.5304 13.8693 22.0391 13.4942 22.4142C13.1191 22.7893 12.6104 23 12.08 23C11.5496 23 11.0409 22.7893 10.6658 22.4142C10.2907 22.0391 10.08 21.5304 10.08 21V20.91C10.0723 20.579 9.96512 20.258 9.77251 19.9887C9.5799 19.7194 9.31074 19.5143 9 19.4C8.69838 19.2669 8.36381 19.2272 8.03941 19.286C7.71502 19.3448 7.41568 19.4995 7.18 19.73L7.12 19.79C6.93425 19.976 6.71368 20.1235 6.47088 20.2241C6.22808 20.3248 5.96783 20.3766 5.705 20.3766C5.44217 20.3766 5.18192 20.3248 4.93912 20.2241C4.69632 20.1235 4.47575 19.976 4.29 19.79C4.10405 19.6043 3.95653 19.3837 3.85588 19.1409C3.75523 18.8981 3.70343 18.6378 3.70343 18.375C3.70343 18.1122 3.75523 17.8519 3.85588 17.6091C3.95653 17.3663 4.10405 17.1457 4.29 16.96L4.35 16.9C4.58054 16.6643 4.73519 16.365 4.794 16.0406C4.85282 15.7162 4.81312 15.3816 4.68 15.08C4.55324 14.7842 4.34276 14.532 4.07447 14.3543C3.80618 14.1766 3.49179 14.0813 3.17 14.08H3C2.46957 14.08 1.96086 13.8693 1.58579 13.4942C1.21071 13.1191 1 12.6104 1 12.08C1 11.5496 1.21071 11.0409 1.58579 10.6658C1.96086 10.2907 2.46957 10.08 3 10.08H3.09C3.42099 10.0723 3.742 9.96512 4.0113 9.77251C4.28059 9.5799 4.48572 9.31074 4.6 9C4.73312 8.69838 4.77282 8.36381 4.714 8.03941C4.65519 7.71502 4.50054 7.41568 4.27 7.18L4.21 7.12C4.02405 6.93425 3.87653 6.71368 3.77588 6.47088C3.67523 6.22808 3.62343 5.96783 3.62343 5.705C3.62343 5.44217 3.67523 5.18192 3.77588 4.93912C3.87653 4.69632 4.02405 4.47575 4.21 4.29C4.39575 4.10405 4.61632 3.95653 4.85912 3.85588C5.10192 3.75523 5.36217 3.70343 5.625 3.70343C5.88783 3.70343 6.14808 3.75523 6.39088 3.85588C6.63368 3.95653 6.85425 4.10405 7.04 4.29L7.1 4.35C7.33568 4.58054 7.63502 4.73519 7.95941 4.794C8.28381 4.85282 8.61838 4.81312 8.92 4.68H9C9.29577 4.55324 9.54802 4.34276 9.72569 4.07447C9.90337 3.80618 9.99872 3.49179 10 3.17V3C10 2.46957 10.2107 1.96086 10.5858 1.58579C10.9609 1.21071 11.4696 1 12 1C12.5304 1 13.0391 1.21071 13.4142 1.58579C13.7893 1.96086 14 2.46957 14 3V3.09C14.0013 3.41179 14.0966 3.72618 14.2743 3.99447C14.452 4.26276 14.7042 4.47324 15 4.6C15.3016 4.73312 15.6362 4.77282 15.9606 4.714C16.285 4.65519 16.5843 4.50054 16.82 4.27L16.88 4.21C17.0657 4.02405 17.2863 3.87653 17.5291 3.77588C17.7719 3.67523 18.0322 3.62343 18.295 3.62343C18.5578 3.62343 18.8181 3.67523 19.0609 3.77588C19.3037 3.87653 19.5243 4.02405 19.71 4.21C19.896 4.39575 20.0435 4.61632 20.1441 4.85912C20.2448 5.10192 20.2966 5.36217 20.2966 5.625C20.2966 5.88783 20.2448 6.14808 20.1441 6.39088C20.0435 6.63368 19.896 6.85425 19.71 7.04L19.65 7.1C19.4195 7.33568 19.2648 7.63502 19.206 7.95941C19.1472 8.28381 19.1869 8.61838 19.32 8.92V9C19.4468 9.29577 19.6572 9.54802 19.9255 9.72569C20.1938 9.90337 20.5082 9.99872 20.83 10H21C21.5304 10 22.0391 10.2107 22.4142 10.5858C22.7893 10.9609 23 11.4696 23 12C23 12.5304 22.7893 13.0391 22.4142 13.4142C22.0391 13.7893 21.5304 14 21 14H20.91C20.5882 14.0013 20.2738 14.0966 20.0055 14.2743C19.7372 14.452 19.5268 14.7042 19.4 15Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Customizability</h3>
+                        <p>Your animation, your rules. Adjust speed, movement patterns, and effects to match your creative vision.</p>
+                    </div>
+                    
+                    <div class="why-choose-card">
+                        <div class="why-choose-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Speed</h3>
+                        <p>Transform drawings into animations in minutes, not hours. Our AI-powered engine works quickly to bring your creations to life.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carousel-controls">
+                <button class="carousel-prev why-prev">←</button>
+                <button class="carousel-next why-next">→</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="roadmap-section" id="roadmap">
+        <div class="container">
+            <div class="roadmap-wrapper">
+                <div class="roadmap-header">
+                    <h2>Future Roadmap</h2>
+                </div>
+                
+                <div class="roadmap-list">
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 8V12L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>New Animation Styles</h3>
+                            <p>Introducing new motion templates and effects. Our AI will learn from professional animators to create even more natural and engaging movements for your characters.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 10L19.5528 7.72361C20.2177 7.39116 21 7.87465 21 8.61803V15.382C21 16.1253 20.2177 16.6088 19.5528 16.2764L15 14M5 18H13C14.1046 18 15 17.1046 15 16V8C15 6.89543 14.1046 6 13 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>Integration with Other Platforms</h3>
+                            <p>Export directly to social media, presentations, or even AR/VR applications. Seamlessly integrate your animated creations into any digital platform.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="roadmap-item">
+                        <div class="roadmap-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 20H7C5.89543 20 5 19.1046 5 18V6C5 4.89543 5.89543 4 7 4H17C18.1046 4 19 4.89543 19 6V18C19 19.1046 18.1046 20 17 20Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 8V16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="roadmap-content">
+                            <h3>Collaboration Features</h3>
+                            <p>Allow multiple users to work on animations in real-time. Share projects, provide feedback, and create together in a collaborative workspace.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="cta-content">
+                    <h2>Try AI Drawings Agent Today!</h2>
+                    <p>Whether you're a digital artist, an educator, or simply a doodler, AI Drawings Agent breathes life into your artwork using advanced AI algorithms. It's never been easier to bring your art to life.</p>
+                    <div class="cta-buttons">
+                        <a href="https://t.me/AI_Drawings_Agent" class="btn-primary" target="_blank">Join now and start animating your creativity!</a>
+                    </div>
+                </div>
+                <div class="cta-decoration">
+                    <svg width="160" height="160" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M9 9H9.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M15 9H15.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="uploads/img/hd.png" alt="AI Drawings Agent Logo">
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 AI Drawings Agent. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const track = document.querySelector('.features-track');
+            const cards = document.querySelectorAll('.feature-card');
+            const prevBtn = document.querySelector('.carousel-prev');
+            const nextBtn = document.querySelector('.carousel-next');
+            
+            // For drag scrolling
+            let isDragging = false;
+            let startPosition = 0;
+            let currentTranslate = 0;
+            let prevTranslate = 0;
+            let currentIndex = 0;
+            
+            // Calculate how many cards are visible
+            function getCardsPerView() {
+                if (window.innerWidth <= 768) {
+                    return 1; // 手机显示1张
+                } else if (window.innerWidth <= 992) {
+                    return 2; // iPad显示2张
+                }
+                return 3; // 默认显示3张
+            }
+            
+            function updateCarousel(animate = true) {
+                const cardWidth = cards[0].offsetWidth;
+                const cardMargin = window.innerWidth <= 768 ? 20 : 30; // 手机端间距更小
+                const cardsPerView = getCardsPerView();
+                const offset = -currentIndex * (cardWidth + cardMargin);
+                
+                if (animate) {
+                    track.style.transition = 'transform 0.5s ease';
+                } else {
+                    track.style.transition = 'none';
+                }
+                
+                prevTranslate = offset;
+                currentTranslate = offset;
+                track.style.transform = `translateX(${offset}px)`;
+                
+                // 更新按钮状态
+                prevBtn.disabled = currentIndex === 0;
+                nextBtn.disabled = currentIndex >= cards.length - cardsPerView;
+                
+                prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+                nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+            }
+            
+            // Button navigation
+            prevBtn.addEventListener('click', function() {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateCarousel();
+                }
+            });
+            
+            nextBtn.addEventListener('click', function() {
+                const cardsPerView = getCardsPerView();
+                if (currentIndex < cards.length - cardsPerView) {
+                    currentIndex++;
+                    updateCarousel();
+                }
+            });
+            
+            // Mouse and Touch events for drag scrolling
+            track.addEventListener('mousedown', dragStart);
+            track.addEventListener('touchstart', dragStart, { passive: false });
+            window.addEventListener('mouseup', dragEnd);
+            window.addEventListener('touchend', dragEnd);
+            window.addEventListener('mousemove', drag);
+            window.addEventListener('touchmove', drag, { passive: false });
+            
+            function dragStart(e) {
+                if (e.type === 'touchstart') {
+                    startPosition = e.touches[0].clientX;
+                } else {
+                    startPosition = e.clientX;
+                    e.preventDefault();
+                }
+                
+                isDragging = true;
+                track.style.cursor = 'grabbing';
+                track.style.transition = 'none';
+            }
+            
+            function drag(e) {
+                if (!isDragging) return;
+                
+                let currentPosition;
+                if (e.type === 'touchmove') {
+                    currentPosition = e.touches[0].clientX;
+                    e.preventDefault();
+                } else {
+                    currentPosition = e.clientX;
+                }
+                
+                const diff = currentPosition - startPosition;
+                currentTranslate = prevTranslate + diff;
+                
+                track.style.transform = `translateX(${currentTranslate}px)`;
+            }
+            
+            function dragEnd() {
+                if (!isDragging) return;
+                
+                isDragging = false;
+                track.style.cursor = 'grab';
+                
+                const cardWidth = cards[0].offsetWidth;
+                const threshold = cardWidth / 4; // 卡片宽度的25%
+                
+                const moveBy = currentTranslate - prevTranslate;
+                
+                if (moveBy < -threshold && currentIndex < cards.length - cardsPerView) {
+                    // 向左拖动明显 - 转到下一张卡片
+                    currentIndex++;
+                } else if (moveBy > threshold && currentIndex > 0) {
+                    // 向右拖动明显 - 转到上一张卡片
+                    currentIndex--;
+                }
+                
+                updateCarousel();
+            }
+            
+            // Handle window resize
+            window.addEventListener('resize', function() {
+                updateCarousel(false);
+            });
+            
+            // Initialize
+            track.style.cursor = 'grab';
+            updateCarousel(false);
+        });
+
+        // Tab functionality with slider
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            const tabSlider = document.querySelector('.tab-slider');
+            
+            // Initialize slider position
+            function updateSlider(btn) {
+                tabSlider.style.width = btn.offsetWidth + 'px';
+                tabSlider.style.left = btn.offsetLeft + 'px';
+            }
+            
+            // Set initial position
+            updateSlider(document.querySelector('.tab-btn.active'));
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons and contents
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Update slider position
+                    updateSlider(this);
+                    
+                    // Show corresponding content
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Update slider on window resize
+            window.addEventListener('resize', function() {
+                updateSlider(document.querySelector('.tab-btn.active'));
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Technology carousel
+            initCarousel('.technology-track', '.tech-prev', '.tech-next');
+            
+            // Why Choose carousel
+            initCarousel('.why-choose-track', '.why-prev', '.why-next');
+            
+            function initCarousel(trackSelector, prevBtnSelector, nextBtnSelector) {
+                const track = document.querySelector(trackSelector);
+                const cards = track.children;
+                const prevBtn = document.querySelector(prevBtnSelector);
+                const nextBtn = document.querySelector(nextBtnSelector);
+                
+                // For drag scrolling
+                let isDragging = false;
+                let startPosition = 0;
+                let currentTranslate = 0;
+                let prevTranslate = 0;
+                let currentIndex = 0;
+                
+                // 固定每次显示2张卡片
+                const cardsPerView = 2;
+                
+                // 设置卡片宽度为容器的一半减去间距
+                function setCardWidths() {
+                    const containerWidth = track.parentElement.offsetWidth;
+                    const cardWidth = (containerWidth - 30) / 2; // 30px是卡片间的间距
+                    
+                    Array.from(cards).forEach(card => {
+                        card.style.minWidth = `${cardWidth}px`;
+                        card.style.maxWidth = `${cardWidth}px`;
+                    });
+                }
+                
+                function updateCarousel(animate = true) {
+                    const cardWidth = cards[0].offsetWidth;
+                    const cardMargin = 30; // 这应该与CSS中的gap匹配
+                    const offset = -currentIndex * (cardWidth + cardMargin);
+                    
+                    if (animate) {
+                        track.style.transition = 'transform 0.5s ease';
+                    } else {
+                        track.style.transition = 'none';
+                    }
+                    
+                    prevTranslate = offset;
+                    currentTranslate = offset;
+                    track.style.transform = `translateX(${offset}px)`;
+                    
+                    // 更新按钮状态
+                    prevBtn.disabled = currentIndex === 0;
+                    nextBtn.disabled = currentIndex >= cards.length - cardsPerView;
+                    
+                    prevBtn.style.opacity = prevBtn.disabled ? '0.5' : '1';
+                    nextBtn.style.opacity = nextBtn.disabled ? '0.5' : '1';
+                }
+                
+                // 按钮导航
+                prevBtn.addEventListener('click', function() {
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                        updateCarousel();
+                    }
+                });
+                
+                nextBtn.addEventListener('click', function() {
+                    if (currentIndex < cards.length - cardsPerView) {
+                        currentIndex++;
+                        updateCarousel();
+                    }
+                });
+                
+                // 鼠标和触摸事件用于拖动滚动
+                track.addEventListener('mousedown', dragStart);
+                track.addEventListener('touchstart', dragStart, { passive: false });
+                window.addEventListener('mouseup', dragEnd);
+                window.addEventListener('touchend', dragEnd);
+                window.addEventListener('mousemove', drag);
+                window.addEventListener('touchmove', drag, { passive: false });
+                
+                function dragStart(e) {
+                    if (e.type === 'touchstart') {
+                        startPosition = e.touches[0].clientX;
+                    } else {
+                        startPosition = e.clientX;
+                        e.preventDefault();
+                    }
+                    
+                    isDragging = true;
+                    track.style.cursor = 'grabbing';
+                    track.style.transition = 'none';
+                }
+                
+                function drag(e) {
+                    if (!isDragging) return;
+                    
+                    let currentPosition;
+                    if (e.type === 'touchmove') {
+                        currentPosition = e.touches[0].clientX;
+                        e.preventDefault();
+                    } else {
+                        currentPosition = e.clientX;
+                    }
+                    
+                    const diff = currentPosition - startPosition;
+                    currentTranslate = prevTranslate + diff;
+                    
+                    track.style.transform = `translateX(${currentTranslate}px)`;
+                }
+                
+                function dragEnd() {
+                    if (!isDragging) return;
+                    
+                    isDragging = false;
+                    track.style.cursor = 'grab';
+                    
+                    const cardWidth = cards[0].offsetWidth;
+                    const threshold = cardWidth / 4; // 卡片宽度的25%
+                    
+                    const moveBy = currentTranslate - prevTranslate;
+                    
+                    if (moveBy < -threshold && currentIndex < cards.length - cardsPerView) {
+                        // 向左拖动明显 - 转到下一张卡片
+                        currentIndex++;
+                    } else if (moveBy > threshold && currentIndex > 0) {
+                        // 向右拖动明显 - 转到上一张卡片
+                        currentIndex--;
+                    }
+                    
+                    updateCarousel();
+                }
+                
+                // 处理窗口大小调整
+                window.addEventListener('resize', function() {
+                    setCardWidths();
+                    updateCarousel(false);
+                });
+                
+                // 初始化
+                setCardWidths();
+                track.style.cursor = 'grab';
+                updateCarousel(false);
+            }
+        });
+    </script>
+</body>
+</html> 
